@@ -20,7 +20,7 @@ io = socket.listen(app);
 app.listen(appPort);
 
 // redisMessages 
-var redisMessages = function() { console.log("aaaaaaaaaaa");
+var redisMessages = function() { 
     dashletData = new Array();
     var socketChannelName = '';
     redisClient.on('message', function(channel, message){
@@ -48,7 +48,7 @@ var redisMessages = function() { console.log("aaaaaaaaaaa");
 io.sockets.on('connection', function(socket) {
   console.log('Number of connections:' + connectionsArray.length);
   // starting the loop only if at least there is one user connected
-if (!connectionsArray.length) { console.log("im here");
+if (!connectionsArray.length) { 
     redisClient.subscribe("redis_data");
     redisMessages(); // For usre counter //select count('user_type'), user_type from users group by user_type;
 }
