@@ -39,16 +39,16 @@ Node server that is able to read from a redis server and then stream those data 
     
     running redis server:
     In terminal type redis-server
-    redis-server 
+
 
 2. In the root of the project folder run
-    npm install
+    npm install <br>
     above command will read package.js and install all dependencies (redis and socketio)
     
-3. Start nodejs server
+3. Start nodejs server <br>
    nodejs <root>/server.js
    
 4. open  <root>/client/client.html in browser
 
-5. publish message to redis
+5. publish message to redis <br>
     nodejs /redis_publisher/redis_pub.js
