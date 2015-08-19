@@ -87,4 +87,4 @@ var updateSockets = function(data, notificationType) {
 	});
 };
 
-console.log('Please use your browser to navigate to http://localhost:'+appPort);
+console.log('Nodejs server running at http://localhost:'+appPort);
