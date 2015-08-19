@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-redis-push-notification-demo",
+  "version": "1.0.0",
+  "description": "This package is for socket based push notification using redis pub/sub with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "redis",
+    "socket",
+    "push",
+    "notification",
+    "redis",
+    "pub-sub"
+  ],
+  "author": "Ashwani Singh <ashwani4u4888@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^0.12.1",
+    "socket.io": "^1.3.6"
+  }
+}
