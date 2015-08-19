@@ -15,6 +15,10 @@
     "redis",
     "pub-sub"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AshSingh4888/nodejs-redis-push-notification-demo.git"
+  },
   "author": "Ashwani Singh <ashwani4u4888@gmail.com>",
   "license": "ISC",
   "dependencies": {
