@@ -20,5 +20,6 @@ $message = 'This is a test message from php redis publisher.';
 
 //Publishing message to redis server
 $client->publish($channelName, $message);
+$client->quit();
 echo "published test message to channel [$channelName] ";
 

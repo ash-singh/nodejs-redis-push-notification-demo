@@ -50,7 +50,7 @@ io.sockets.on('connection', function(socket) {
   // starting the loop only if at least there is one user connected
 if (!connectionsArray.length) { 
     redisClient.subscribe("redis_data");
-    redisMessages(); // For usre counter //select count('user_type'), user_type from users group by user_type;
+    redisMessages(); // for sending redis messages as push notification
 }
 
 socket.on('disconnect', function() {

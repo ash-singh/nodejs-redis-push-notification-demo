@@ -1,6 +1,6 @@
 {
   "name": "nodejs-redis-push-notification-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package is for socket based push notification using redis pub/sub with nodejs",
   "main": "server.js",
   "scripts": {
@@ -13,7 +13,8 @@
     "socketio",
     "push-notification",
     "redis",
-    "pub-sub"
+    "pub-sub",
+    "php"
   ],
   "repository": {
     "type": "git",
