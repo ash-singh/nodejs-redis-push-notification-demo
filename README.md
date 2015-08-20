@@ -52,7 +52,7 @@ Node server that is able to read from a redis server and then stream those data 
 
 5. publish message to redis <br>
     (a).From nodejs publisher <br>
-        nodejs /redis_publisher/nodejs/redis_pub.js
+        nodejs /redis_publisher/nodejs/redis_pub.js <br>
     (b).From php publisher <br>
         navigate to /redis_publisher/php folder and run composer install <br>
         php redis_pub.js
