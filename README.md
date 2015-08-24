@@ -5,7 +5,7 @@ Node server that is able to read from a redis server and then stream those data 
 
 
 
- Version:     1.0.0<br>
+ Version:     1.0.4<br>
  Author:      Ashwani Singh<br>
  Contact:     ashwani4u4888@gmail.com<br>
  Twitter:     Ash_Singh4u<br>
@@ -52,7 +52,13 @@ Node server that is able to read from a redis server and then stream those data 
 
 5. publish message to redis <br>
     (a).From nodejs publisher <br>
-        nodejs /redis_publisher/nodejs/redis_pub.js
+        nodejs /redis_publisher/nodejs/redis_pub.js <br>
+        
     (b).From php publisher <br>
         navigate to /redis_publisher/php folder and run composer install <br>
-        php redis_pub.js
+        php redis_pub.js   <br>
+        
+    (C). From python publisher
+        python > 3.*
+        
+        sudo pip3 install redis
