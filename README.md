@@ -5,7 +5,7 @@ Node server that is able to read from a redis server and then stream those data 
 
 
 
- Version:     1.0.4<br>
+ Version:     1.0.5<br>
  Author:      Ashwani Singh<br>
  Contact:     ashwani4u4888@gmail.com<br>
  Twitter:     Ash_Singh4u<br>
