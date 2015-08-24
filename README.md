@@ -48,7 +48,7 @@ Node server that is able to read from a redis server and then stream those data 
 3. Start nodejs server <br>
    nodejs <root>/server.js
    
-4. open  <root>/client/client.html in browser
+4. open  <root>/client/client.html in browser <br>
 
 5. publish message to redis <br>
     (a).From nodejs publisher <br>
@@ -58,7 +58,14 @@ Node server that is able to read from a redis server and then stream those data 
         navigate to /redis_publisher/php folder and run composer install <br>
         php redis_pub.js   <br>
         
-    (C). From python publisher
-        python > 3.*
+    (C). From python publisher <br>
+        python 3    <br>
+        sudo pip3 install redis <br>
         
-        sudo pip3 install redis
+        python /redis_publisher/python/redis_pub_python3 <br>
+        
+        python 2 <br>
+        sudo pip install redis <br>
+        
+        python /redis_publisher/python/redis_pub_python2 <br>
+        
