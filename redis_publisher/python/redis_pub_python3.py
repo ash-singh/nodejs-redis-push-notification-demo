@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import redis
 
@@ -14,5 +14,5 @@ redisClient = redis.StrictRedis(host = hostname, port = redisPort, db = 0)
 
 redisClient.publish(channelName, message)
 
-print 'published test message to channel ['+channelName+']'
+print ('published test message to channel ['+channelName+']')
 
