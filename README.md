@@ -61,7 +61,8 @@ Node server that is able to read from a redis server and then stream those data 
     (C). From python publisher <br>
         python 3    <br>
         sudo pip3 install redis <br>
-        python /redis_publisher/python/redis_pub_python3 <br>
+        python /redis_publisher/python/redis_pub_python3 <br
+
         python 2 <br>
         sudo pip install redis <br>
         python /redis_publisher/python/redis_pub_python2 <br>
